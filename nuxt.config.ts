@@ -8,9 +8,4 @@ export default defineNuxtConfig({
   },
   // ตั้งค่าเบื้องต้น
   ssr: true, // ใช้ server-side rendering
-
-  // ตั้งค่า baseURL ถ้าต้องการ
-  router: {},
-
-  // ตั้งค่าคุณสมบัติอื่นๆ ที่จำเป็น
 });
