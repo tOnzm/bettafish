@@ -6,6 +6,4 @@ export default defineNuxtConfig({
   nitro: {
     preset: "node-server",
   },
-  // ตั้งค่าเบื้องต้น
-  ssr: true, // ใช้ server-side rendering
 });
