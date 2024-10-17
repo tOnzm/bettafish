@@ -2,7 +2,7 @@
   <div>
     <h1>Add Betta Fish</h1>
     <form @submit.prevent="addFish">
-      <input v-model="fish.breed" placeholder="Breed" />
+      <input v-model="fish.breed" placeholder="สายพันธ์ุ" />
       <input v-model="fish.age" type="number" placeholder="Age" />
       <input v-model="fish.size" placeholder="Size" />
       <input v-model="fish.color" placeholder="Color" />
