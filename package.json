@@ -11,10 +11,17 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "gridfs-stream": "^1.1.1",
     "mongodb": "^6.9.0",
     "mongoose": "^8.7.1",
+    "multer": "^1.4.5-lts.1",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
   }
 }
